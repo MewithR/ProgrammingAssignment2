@@ -1,4 +1,4 @@
-
+## ============================================================##
 ## This functions calculate the inverse of a matrix and saves it
 ## to the cacheed matrix. So the next time you run the function 
 ## the previously saved value of matrix inverse is returned instead of
@@ -32,5 +32,5 @@ cacheSolve <- function(x, ...) {   ## Return a matrix that is the inverse of 'x'
   cmt
 }
 
-
+## ============================================================##
 

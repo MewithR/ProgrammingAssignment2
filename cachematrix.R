@@ -10,6 +10,7 @@ makeCacheMatrix <- function(x = matrix()) { ## this create a matrix object x and
   
   cmt <- NULL    ## sets the cached cmt to NULL
   set <- function(z) {
+   
     x <<- z     ## assign the input matrix z to the variable x 
    
     cmt <<- NULL 
@@ -24,6 +25,7 @@ makeCacheMatrix <- function(x = matrix()) { ## this create a matrix object x and
 
 
 }
+
 
 
 ## This function calculates the inverse of the a "matrix" by first checking if the inverse
